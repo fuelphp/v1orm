@@ -1,0 +1,24 @@
+{
+	"name": "fuelphp/v1orm",
+	"description": "Fuel PHP Framework - Version 1 PSR-4 ORM Package",
+	"keywords": ["fuel", "fuelphp", "v1", "orm"],
+	"homepage": "https://github.com/fuelphp/v1orm",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Fuel PHP Framework Development Team",
+			"email": "team@fuelphp.com"
+		}
+	],
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"codeception/codeception": "~2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fuel\\Orm\\": "classes/"
+		}
+	}
+}
