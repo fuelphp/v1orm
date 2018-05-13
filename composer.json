@@ -18,7 +18,10 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Fuel\\Orm\\": "classes/"
-		}
+			"Orm\\": "classes/"
+		},
+		"files": [
+			"src/bootstrap.php"
+		]
 	}
 }
