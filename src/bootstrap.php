@@ -10,5 +10,3 @@
  * @link       http://fuelphp.com
  */
 
-// Ensure the orm's config is loaded for Temporal
-\Fuel\Core\Config::load('orm', true);
